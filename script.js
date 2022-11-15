@@ -49,9 +49,9 @@ function analisar (){
         media =soma / tot
         res.innerHTML =''
         res.innerHTML+=`<p>Ao todo, temos ${tot} números cadastrados.</p>`
-        res.innerHTML+=`<p>O maior valor informado foi ${maior}</p>`
-        res.innerHTML+=`<p>O menor valor informado foi ${menor}</p>`
+        res.innerHTML+=`<p>O maior valor informado foi ${maior}.</p>`
+        res.innerHTML+=`<p>O menor valor informado foi ${menor}.</p>`
         res.innerHTML+=`<p>Somando todos os valores, temos ${soma}.</p>`
-        res.innerHTML+=`A media dos valores digitados ${media}`
+        res.innerHTML+=`<p>A média dos valores digitados ${media}.</p>`
     }
 }
